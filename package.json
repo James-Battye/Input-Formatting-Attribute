@@ -1,13 +1,13 @@
 {
-  "name": "@finsweet/developer-starter",
+  "name": "@yes-chef/input-format",
   "version": "0.0.0",
-  "description": "Developer starter template for Finsweet projects.",
+  "description": "Format form inputs with currency or percentages with ease.",
   "homepage": "https://github.com/finsweet/developer-starter#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
-    "name": "Finsweet",
-    "url": "https://finsweet.com/"
+    "name": "Yes Chef Studio",
+    "url": "https://yeschef.studio/"
   },
   "repository": {
     "type": "git",
