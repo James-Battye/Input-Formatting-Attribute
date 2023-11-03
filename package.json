@@ -1,6 +1,6 @@
 {
   "name": "@yes-chef/input-format",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Format form inputs with currency or percentages with ease.",
   "homepage": "https://github.com/finsweet/developer-starter#readme",
   "license": "ISC",
