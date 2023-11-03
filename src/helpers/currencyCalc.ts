@@ -23,4 +23,31 @@ export function currencyCalc(element: HTMLElement): void {
       input.value = formatNumber(value) ? formatNumber(value) + currency.symbol : '';
     }
   });
+
+  if (currency.prefix === false) {
+    element.addEventListener('keydown', function (event: KeyboardEvent) {
+      const input: HTMLInputElement = event.target as HTMLInputElement;
+      const cursorPosition: number | null = input.selectionStart;
+
+      // Handle Backspace key
+      if (
+        event.key === 'Backspace' &&
+        cursorPosition === input.value.length &&
+        input.value.endsWith(currency.symbol)
+      ) {
+        event.preventDefault(); // Stop the default backspace behavior
+        input.value = input.value.slice(0, -2) + input.value.slice(-1); // Remove second to last character
+      }
+
+      // Handle Delete key
+      if (
+        event.key === 'Delete' &&
+        cursorPosition === input.value.length - 1 &&
+        input.value.endsWith(currency.symbol)
+      ) {
+        event.preventDefault();
+        input.value = input.value.slice(0, cursorPosition) + input.value.slice(cursorPosition + 1);
+      }
+    });
+  }
 }
