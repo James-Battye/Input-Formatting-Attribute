@@ -12,20 +12,8 @@ jobs:
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-  post-release:
-    name: Post Release Actions
+  post_release:
     runs-on: ubuntu-latest
-    needs: release
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          version: 9
-
-      - name: Run Changeset and Git Commands
-        run: pnpm run changeset-and-commit
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Merge pull requests (automerge-action)
+        uses: pascalgn/automerge-action@v0.16.3
