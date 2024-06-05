@@ -35,7 +35,7 @@
     "update": "pnpm update -i -L -r",
     "commit": "git add . && git commit -m 'Automated commit' && git push",
     "changeset": "changeset",
-    "commit-and-release": "npm run commit && npm run changeset publish"
+    "new-update": "npm run commit && npm run changeset publish"
   },
   "devDependencies": {
     "@changesets/changelog-git": "^0.1.14",
