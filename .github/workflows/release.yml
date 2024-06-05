@@ -15,5 +15,7 @@ jobs:
   post_release:
     runs-on: ubuntu-latest
     steps:
-      - name: Merge pull requests (automerge-action)
-        uses: pascalgn/automerge-action@v0.16.3
+      - name: Merge pull requests
+        uses: pascalgn/automerge-action@v0.14.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
