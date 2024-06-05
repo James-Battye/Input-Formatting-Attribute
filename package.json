@@ -31,11 +31,10 @@
     "format": "prettier --write ./src",
     "test": "playwright test",
     "test:headed": "playwright test --headed",
-    "release": "standard-version --release-as patch && npm publish",
-    "update": "pnpm update -i -L -r",
     "commit": "git add . && git commit -m 'Automated commit' && git push",
+    "release": "standard-version --release-as patch && npm publish",
     "changeset": "changeset",
-    "new-update": "npm run commit && npm run changeset publish"
+    "new-update": "npm run commit && npm run release"
   },
   "devDependencies": {
     "@changesets/changelog-git": "^0.1.14",
