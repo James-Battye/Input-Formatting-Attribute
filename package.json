@@ -2,7 +2,7 @@
   "name": "@yes-chef/input-format",
   "version": "0.0.7",
   "description": "Format form inputs with currency or percentages with ease.",
-  "homepage": "https://github.com/finsweet/developer-starter#readme",
+  "homepage": "https://github.com/james-battye//Input-Formatting-Attribute#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/developer-starter.git"
+    "url": "git+https://github.com/james-battye//Input-Formatting-Attribute.git"
   },
   "bugs": {
-    "url": "https://github.com/finsweet/developer-starter/issues"
+    "url": "https://github.com/james-battye//Input-Formatting-Attribute/issues"
   },
   "type": "module",
   "main": "src/index.ts",
@@ -32,7 +32,7 @@
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "release": "changeset publish",
-    "set-changeset": "pnpm changeset && git add . && git commit -m 'Automated changeset commit' && git push",
+    "launch": "pnpm changeset && git add . && git commit -m 'Automated changeset commit' && git push && echo 'Open Pull Requests: https://github.com/james-battye//Input-Formatting-Attribute/pulls'",
     "update": "pnpm update -i -L -r"
   },
   "devDependencies": {
