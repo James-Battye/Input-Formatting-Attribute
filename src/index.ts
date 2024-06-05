@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // yet another test
+  console.log('this is version 5');
 
   if (percentInputs) {
     percentInputs.forEach((e) => {
