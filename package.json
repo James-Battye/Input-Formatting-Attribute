@@ -32,6 +32,7 @@
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "release": "changeset publish",
+    "changeset-and-commit": "pnpm changeset && git add . && git commit -m 'Automated changeset commit' && git push && gh pr merge --auto -d",
     "update": "pnpm update -i -L -r"
   },
   "devDependencies": {
