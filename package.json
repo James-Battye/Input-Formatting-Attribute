@@ -32,7 +32,7 @@
     "test": "playwright test",
     "test:headed": "playwright test --headed",
     "release": "changeset publish",
-    "launch": "pnpm changeset && git add . && git commit -m 'Automated changeset commit' && git push && echo 'Open Pull Requests: https://github.com/james-battye//Input-Formatting-Attribute/pulls'",
+    "launch": "git pull && pnpm changeset && git add . && git commit -m 'Automated changeset commit' && git push && echo 'Open Pull Requests: https://github.com/james-battye//Input-Formatting-Attribute/pulls'",
     "update": "pnpm update -i -L -r"
   },
   "devDependencies": {
