@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.8
+
+### Patch Changes
+
+- fc386ba: New log
+- a2ba95c: launch
+
 ## 0.0.7
 
 ### Patch Changes
