@@ -11,6 +11,8 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // yet another test
+
   if (percentInputs) {
     percentInputs.forEach((e) => {
       percentFormat(e);
