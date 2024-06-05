@@ -10,8 +10,8 @@ export const currencySymbols: Record<string, CurrencyInfo> = {
   yen: { symbol: '¥', prefix: true }, // Japanese Yen
   yuan: { symbol: '¥', prefix: true }, // Chinese Yuan
   swissFranc: { symbol: 'CHF', prefix: false }, // Swiss Franc
-  cad: { symbol: 'C$', prefix: true }, // Canadian Dollar
-  aud: { symbol: 'A$', prefix: true }, // Australian Dollar
+  cad: { symbol: 'CA$', prefix: true }, // Canadian Dollar
+  aud: { symbol: 'AU$', prefix: true }, // Australian Dollar
   nzd: { symbol: 'NZ$', prefix: true }, // New Zealand Dollar
   won: { symbol: '₩', prefix: true }, // Korean Won
   ruble: { symbol: '₽', prefix: true }, // Russian Ruble
