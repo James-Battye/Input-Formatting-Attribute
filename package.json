@@ -1,6 +1,6 @@
 {
   "name": "@yes-chef/input-format",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Format form inputs with currency or percentages with ease.",
   "homepage": "https://github.com/james-battye//Input-Formatting-Attribute#readme",
   "license": "ISC",

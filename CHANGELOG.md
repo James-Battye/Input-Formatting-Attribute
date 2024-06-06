@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.9
+
+### Patch Changes
+
+- f873100: adjusted currency codes
+
 ## 0.0.8
 
 ### Patch Changes
