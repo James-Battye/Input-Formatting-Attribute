@@ -4,6 +4,10 @@
 
 This guide provides instructions on how to use specific attributes in Webflow to apply currency and percentage formatting without any coding.
 
+Add this script to the HEAD of your webflow site settings or page settings 
+
+```<script defer src="https://cdn.jsdelivr.net/npm/@yes-chef/input-format@0.0.8/dist/index.js"></script>```
+
 ## Attributes
 
 - **currency**: This attribute specifies the type of currency symbol you want to display with an input value. It uses the `currencyCalc` function to apply formatting.
